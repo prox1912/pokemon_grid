@@ -1,0 +1,98 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Use Comic Sans for all text */
+    background-image: url('background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.game-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    font-size: larger;
+    width: 80%; /* Adjust container width as needed */
+    max-width: 800px; /* Set a maximum width for the container */
+}
+
+.title-image {
+    position: relative;
+    margin-top: 30vh;
+    max-width: 100%;
+    height: 250px; 
+    width: 500px; /* Maintain aspect ratio */
+}
+
+#description {
+    font-size: 1.5em; /* Increase font size */
+    margin-top: 10px; /* Reduce space between the logo and the text */
+}
+
+.maze-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#ash {
+    height: 15vh;
+    width: auto;
+    border-radius: 80%;
+    margin-right: 20px;
+    position: absolute;
+    top:49vh;
+    left:27vw;
+}
+#mew {
+    height: 15vh;
+    width: auto;
+    border-radius: 80%;
+    margin-right: 20px;
+
+    position: absolute;
+    top:110vh;
+    left:66vw;
+}
+
+#mazeCanvas {
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 2px solid white; /* Optional: Add a border to the canvas */
+}
+
+.controls {
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+button {
+    padding: 10px 40px;
+    margin: 5px;
+    cursor: pointer;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Comic Sans for buttons */
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 1.8em;
+}
+
+#startButton {
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+#stopButton {
+    font-size: 1.3rem;
+    font-weight: 900;
+}
+
+#newGameButton {
+    font-size: 1.3rem;
+    font-weight: 900;
+}
